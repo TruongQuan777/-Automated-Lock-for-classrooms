@@ -4,8 +4,8 @@
 #include <ESPAsyncWebServer.h>
 #include <WiFiUDP.h>
 #include <FS.h>
-const char* ssid = "NUNI";
-const char* password =  "07072601";
+const char* ssid = "yourssid";
+const char* password =  "yourpassword";
 AsyncWebServer server(80);
 // Current time
 unsigned long currentTime = millis();
@@ -40,7 +40,7 @@ String input2="";
 String nameinput2="input2";
 bool EmergencyOpen=false;
 bool EmergencyClose=false;
-String valuepassword="loserbutwinher";
+String valuepassword="thepassword";
 String namepassword="password";
 String check;
 
